@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_spruce_taiga": "2023-04-15 12:32:52 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

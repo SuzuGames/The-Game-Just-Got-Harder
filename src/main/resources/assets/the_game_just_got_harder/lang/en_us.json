@@ -1,0 +1,8 @@
+{
+  "effect.the_game_just_got_harder.infection": "§4§lInfection",
+  "item.the_game_just_got_harder.bandage": "Bandage",
+  "effect.the_game_just_got_harder.bleeding": "Bleeding",
+  "death.attack.bleeding": "%1 murió desangrado",
+  "item.the_game_just_got_harder.antidote": "Asd",
+  "death.attack.infection": "%1 fue infectado"
+}

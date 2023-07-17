@@ -1,0 +1,366 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/potion/BleedingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Blood",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/client/particle/BloodParticle.java",
+          "src/main/resources/assets/the_game_just_got_harder/particles/blood.json"
+        ]
+      }
+    },
+    {
+      "name": "BleedingProcedure",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/procedures/BleedingProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BleedingEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/procedures/BleedingEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfectionProcedure",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infection_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/procedures/InfectionProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infection",
+      "type": "potioneffect",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/potion/InfectionMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "InfectionExpire",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infection_expire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/procedures/InfectionExpireProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrinkMilk",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_milk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/procedures/DrinkMilkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrinkMilk2",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_milk_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/procedures/DrinkMilk2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bandage",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/item/BandageItem.java",
+          "src/main/resources/assets/the_game_just_got_harder/models/item/bandage.json"
+        ]
+      }
+    },
+    {
+      "name": "BandageRightclicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/procedures/BandageRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntidoteCraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidote_craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/recipes/brewing/AntidoteCraftBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Antidote",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidote",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_game_just_got_harder/models/item/antidote.json",
+          "src/main/java/net/mcreator/thegamejustgotharder/item/AntidoteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AntidoteRightClicked",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidote_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegamejustgotharder/procedures/AntidoteRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BandageCraft",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_game_just_got_harder/recipes/bandage_craft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "bleeding",
+      "type": "number",
+      "scope": "map",
+      "value": "100.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "effect.the_game_just_got_harder.infection": "§4§lInfection",
+      "item.the_game_just_got_harder.bandage": "Bandage",
+      "effect.the_game_just_got_harder.bleeding": "Bleeding",
+      "death.attack.bleeding": "%1 murió desangrado",
+      "item.the_game_just_got_harder.antidote": "Asd",
+      "death.attack.infection": "%1 fue infectado"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_game_just_got_harder",
+    "modName": "The Game Just Got Harder",
+    "version": "1.0.0",
+    "author": "Suzu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.thegamejustgotharder",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300223515
+}
